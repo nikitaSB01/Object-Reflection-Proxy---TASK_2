@@ -9,9 +9,9 @@ function characterInformationOutput(characterObject) {
       result[i].description = 'Описание недоступно';
     }
   }
-  console.log(result);
+  return result;
 }
-const character = {
+/* const character = {
   name: 'Лучник',
   type: 'Bowman',
   health: 50,
@@ -42,7 +42,7 @@ const character = {
       description: 'двойной урон',
     },
   ],
-};
-characterInformationOutput(character);
+}; */
+//  characterInformationOutput(character);
 
 export default characterInformationOutput;
